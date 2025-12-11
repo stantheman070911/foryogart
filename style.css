@@ -1,0 +1,93 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for a cleaner look */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e7e5e4;
+    border-radius: 20px;
+}
+
+/* Subtle ink wash effect for background accents */
+.ink-wash {
+    background: radial-gradient(circle at 50% 50%, rgba(231, 229, 228, 0.4) 0%, rgba(250, 250, 249, 0) 70%);
+}
+
+/* Font Utilities */
+.font-geist {
+    font-family: 'Geist', sans-serif !important;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.font-playfair {
+    font-family: 'Playfair Display', serif !important;
+}
+
+.font-instrument-serif {
+    font-family: 'Instrument Serif', serif !important;
+}
+
+.font-merriweather {
+    font-family: 'Merriweather', serif !important;
+}
+
+.font-bricolage {
+    font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+
+.font-jakarta {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.font-manrope {
+    font-family: 'Manrope', sans-serif !important;
+}
+
+.font-space-grotesk {
+    font-family: 'Space Grotesk', sans-serif !important;
+}
+
+.font-work-sans {
+    font-family: 'Work Sans', sans-serif !important;
+}
+
+.font-pt-serif {
+    font-family: 'PT Serif', serif !important;
+}
+
+.font-geist-mono {
+    font-family: 'Geist Mono', monospace !important;
+}
+
+.font-space-mono {
+    font-family: 'Space Mono', monospace !important;
+}
+
+.font-quicksand {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.font-nunito {
+    font-family: 'Nunito', sans-serif !important;
+}

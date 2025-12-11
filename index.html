@@ -1,0 +1,461 @@
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foryogart | 瑜珈即藝術</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <!-- Fonts -->
+    <link id="all-fonts-link-font-geist" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-roboto" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-montserrat" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-poppins" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-playfair" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap">
+    <link id="all-fonts-link-font-instrument-serif" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-merriweather" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap">
+    <link id="all-fonts-link-font-bricolage" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-jakarta" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap">
+    <link id="all-fonts-link-font-manrope" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap">
+    <link id="all-fonts-link-font-space-grotesk" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-work-sans" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap">
+    <link id="all-fonts-link-font-pt-serif" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap">
+    <link id="all-fonts-link-font-geist-mono" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-space-mono" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap">
+    <link id="all-fonts-link-font-quicksand" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap">
+    <link id="all-fonts-link-font-nunito" rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap">
+</head>
+
+<body class="bg-[#fafaf9] text-stone-600 antialiased selection:bg-stone-200 selection:text-stone-900">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 bg-[#fafaf9]/80 backdrop-blur-md border-b border-stone-100">
+        <div class="max-w-screen-xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <!-- Simple textual logo/Brand -->
+                <span class="text-lg tracking-tighter font-medium text-stone-800 cursor-pointer">Foryogart</span>
+            </div>
+
+            <div class="hidden md:flex items-center gap-8 text-sm text-stone-500">
+                <a href="#" class="hover:text-stone-900 transition-colors duration-300">理念</a>
+                <a href="#" class="hover:text-stone-900 transition-colors duration-300">課程</a>
+                <a href="#" class="hover:text-stone-900 transition-colors duration-300">導師</a>
+                <a href="#" class="hover:text-stone-900 transition-colors duration-300">課表</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <button
+                    class="hidden md:flex items-center gap-2 text-xs font-medium bg-stone-900 text-stone-50 px-4 py-2 rounded-full hover:bg-stone-800 transition-all duration-300">
+                    預約體驗
+                </button>
+                <button class="md:hidden text-stone-800 p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="24" height="24"
+                        viewBox="0 0 24 24" data-icon="lucide:menu" data-width="24" data-height="24"
+                        class="iconify iconify--lucide">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M4 5h16M4 12h16M4 19h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main class="md:pt-48 md:pb-24 overflow-hidden pt-32 pr-6 pb-20 pl-6 relative">
+        <!-- Background decoration -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] ink-wash -z-10 pointer-events-none">
+        </div>
+
+        <div class="max-w-screen-xl mx-auto text-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-stone-200 bg-white/50 mb-8">
+                <span class="w-1.5 h-1.5 rounded-full bg-stone-400"></span>
+                <span class="text-xs text-stone-500 tracking-wide">台北 · 內在修習所</span>
+            </div>
+
+            <h1 class="text-5xl md:text-7xl font-medium text-stone-900 tracking-tight leading-[1.15] mb-8">
+                瑜珈即藝術<br>
+                <span class="text-stone-400">呼吸即創作</span>
+            </h1>
+
+            <p class="text-base md:text-lg text-stone-500 max-w-xl mx-auto leading-relaxed font-light mb-12">
+                Foryogart 不僅是身體的練習，更是一場向內探索的旅程。在這裡，我們透過正念與哲學，將生活的喧囂轉化為內心的寧靜畫布。
+            </p>
+
+            <div class="flex flex-col md:flex-row items-center justify-center gap-4">
+                <button
+                    class="w-full md:w-auto px-8 py-3 bg-stone-900 text-white rounded-lg text-sm font-medium hover:bg-stone-800 transition-all shadow-sm hover:shadow-md">
+                    開始修習
+                </button>
+                <button
+                    class="w-full md:w-auto px-8 py-3 bg-white border border-stone-200 text-stone-600 rounded-lg text-sm font-medium hover:bg-stone-50 transition-all flex items-center justify-center gap-2 group">
+                    了解更多
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="16" height="16"
+                        viewBox="0 0 24 24" data-icon="lucide:arrow-right" data-width="16"
+                        class="iconify group-hover:translate-x-0.5 transition-transform iconify--lucide">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M5 12h14m-7-7l7 7l-7 7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Philosophy Grid & Manifesto -->
+    <section class="bg-white/50 border-stone-100 border-t pt-24 pb-24">
+        <div class="max-w-screen-xl mr-auto ml-auto pr-6 pl-6">
+
+            <!-- ADDED: Manifesto Text Block -->
+            <div class="max-w-3xl mx-auto text-center mb-24">
+                <h2 class="text-2xl md:text-3xl font-medium text-stone-800 tracking-tight mb-10 leading-snug">
+                    我們相信，每個人都希望<br class="hidden md:block">生活更輕鬆、健康、有力量。
+                </h2>
+                <div class="space-y-8 text-stone-500 leading-8 font-light text-base md:text-lg">
+                    <p class="">
+                        我們的課程從最實用的角度出發，帶領你透過瑜珈與正念練習，逐步建立穩定、清晰的內在狀態。當心更穩定，生活就更容易運作，也更能做出真正適合自己的選擇。
+                    </p>
+                    <p class="">
+                        我們結合傳統瑜珈、東西方哲學、生活經驗與自然法則，用簡單易懂的方式，陪伴你把覺察帶回每天的生活中。
+                    </p>
+                    <p class="">
+                        不論你是為了調整身心、改善壓力、尋找方向，或希望提升自我，我們都會以實際可用的方法，協助你更自在、更有能量地生活。讓練習不只停在瑜珈墊上，而是讓生活變得輕鬆、有趣、自在。
+                    </p>
+                </div>
+                <div class="w-16 h-px bg-stone-200 mx-auto mt-12"></div>
+            </div>
+
+            <!-- Existing Grid Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Card 1 -->
+                <div class="group">
+                    <div
+                        class="w-10 h-10 rounded-lg bg-stone-100 flex items-center justify-center text-stone-600 mb-6 group-hover:bg-stone-200 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                            viewBox="0 0 24 24" data-icon="lucide:brain-circuit" data-width="20" data-stroke-width="1.5"
+                            class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path
+                                    d="M12 5a3 3 0 1 0-5.997.125a4 4 0 0 0-2.526 5.77a4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z">
+                                </path>
+                                <path
+                                    d="M9 13a4.5 4.5 0 0 0 3-4M6.003 5.125A3 3 0 0 0 6.401 6.5m-2.924 4.396a4 4 0 0 1 .585-.396M6 18a4 4 0 0 1-1.967-.516M12 13h4m-4 5h6a2 2 0 0 1 2 2v1M12 8h8m-4 0V5a2 2 0 0 1 2-2">
+                                </path>
+                                <circle cx="16" cy="13" r=".5"></circle>
+                                <circle cx="18" cy="3" r=".5"></circle>
+                                <circle cx="20" cy="21" r=".5"></circle>
+                                <circle cx="20" cy="8" r=".5"></circle>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium text-stone-900 mb-3 tracking-tight">正念覺察</h3>
+                    <p class="leading-7 text-sm text-stone-500">超越體式的精準，我們更重視當下的覺知。在每一次吸氣與吐氣之間，找回與身體最誠實的連結。</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="group">
+                    <div
+                        class="w-10 h-10 rounded-lg bg-stone-100 flex items-center justify-center text-stone-600 mb-6 group-hover:bg-stone-200 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                            viewBox="0 0 24 24" data-icon="lucide:book-open" data-width="20" data-stroke-width="1.5"
+                            class="iconify iconify--lucide">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M12 7v14m-9-3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4a4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3a3 3 0 0 0-3-3z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium text-stone-900 tracking-tight mb-3">瑜珈哲學</h3>
+                    <p class="leading-7 text-sm text-stone-500">研讀經典智慧，將《瑜珈經》及各界偉大經典的教導融入現代生活。讓瑜珈從墊子上就開始延伸至生活的每一刻。</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="group">
+                    <div
+                        class="w-10 h-10 rounded-lg bg-stone-100 flex items-center justify-center text-stone-600 mb-6 group-hover:bg-stone-200 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                            viewBox="0 0 24 24" data-icon="lucide:palette" data-width="20" data-stroke-width="1.5"
+                            class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path
+                                    d="M12 22a1 1 0 0 1 0-20a10 9 0 0 1 10 9a5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z">
+                                </path>
+                                <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+                                <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+                                <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+                                <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-medium text-stone-900 mb-3 tracking-tight">生活藝術</h3>
+                    <p class="leading-7 text-sm text-stone-500">
+                        我們相信每個人都是自己生命的藝術家。透過身心的整合練習，更清楚所創造的生命流動是自己想要的，譚崔瑜伽的幾何壇城所做成的實用文創小物，讓瑜伽舉手可得，輕鬆練習。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visual Break / Essence -->
+    <section class="bg-stone-100 pt-24 pr-6 pb-24 pl-6">
+        <div class="max-w-screen-xl mx-auto rounded-2xl overflow-hidden bg-white shadow-sm border border-stone-200/60">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div class="lg:p-20 flex flex-col pt-12 pr-12 pb-12 pl-12 justify-center">
+                    <span class="text-xs font-medium text-stone-400 uppercase tracking-widest mb-6">The Studio</span>
+                    <h2 class="text-3xl md:text-4xl font-medium text-stone-800 mb-6 tracking-tight">
+                        喧囂中的一隅淨土
+                    </h2>
+                    <p class="leading-relaxed font-light text-stone-500 mb-8">Foryogart
+                        崇尚極簡的空間設計，去除多餘的視覺干擾。柔和的光線、自然的材質，以及淡淡的線香氣息，為您營造一個沈澱內心紛亂、清雅脫俗的和諧場域。</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3 text-sm text-stone-600">
+
+                            小班制教學，確保個別指導品質
+                        </li>
+                        <li class="flex gap-3 text-sm text-stone-600 gap-x-3 gap-y-3 items-center">人事物友善環境</li>
+                        <li class="flex gap-3 text-sm text-stone-600 gap-x-3 gap-y-3 items-center">課後交流，分享練習心得</li>
+                    </ul>
+                </div>
+                <div class="relative h-64 lg:h-auto bg-[#f0f0ed] flex items-center justify-center overflow-hidden">
+                    <!-- Abstract representation of the studio space -->
+                    <div class="absolute inset-0 opacity-20"
+                        style="background-image: radial-gradient(#a8a29e 1px, transparent 1px); background-size: 24px 24px;">
+                    </div>
+                    <div
+                        class="w-32 h-32 rounded-full border border-stone-300 flex items-center justify-center relative">
+                        <div class="w-24 h-24 rounded-full bg-stone-200/50 backdrop-blur-sm"></div>
+                        <div class="absolute -right-12 -top-12 text-stone-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="64" height="64"
+                                viewBox="0 0 24 24" data-icon="lucide:wind" data-width="64" data-stroke-width="1"
+                                class="iconify iconify--lucide">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M12.8 19.6A2 2 0 1 0 14 16H2m15.5-8a2.5 2.5 0 1 1 2 4H2m7.8-7.6A2 2 0 1 1 11 8H2">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes List -->
+    <section class="max-w-screen-xl mr-auto ml-auto pt-24 pr-6 pb-24 pl-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+            <div class="">
+                <h2 class="text-3xl font-medium text-stone-900 tracking-tight mb-2">常態課程</h2>
+                <p class="text-stone-500">依照當下的身心狀態，選擇適合您的練習。</p>
+            </div>
+            <a href="#"
+                class="text-sm font-medium text-stone-800 hover:text-stone-500 transition-colors flex items-center gap-1">
+                查看完整課表 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="14" height="14"
+                    viewBox="0 0 24 24" data-icon="lucide:arrow-right" data-width="14" class="iconify iconify--lucide">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" d="M5 12h14m-7-7l7 7l-7 7"></path>
+                </svg>
+            </a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6">
+            <!-- Class Item 1 -->
+            <div
+                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer">
+                <div class="flex justify-between items-start mb-6">
+                    <span
+                        class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Hatha</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                        viewBox="0 0 24 24" data-icon="lucide:move-up-right" data-width="20"
+                        class="iconify text-stone-300 group-hover:text-stone-600 transition-colors iconify--lucide">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M13 5h6v6m0-6L5 19"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-medium text-stone-900 mb-2">基礎哈達與正位</h4>
+                <p class="leading-relaxed text-xs text-stone-500 h-12 mb-6">
+                    以Sivananda瑜伽為哈達瑜伽練習的基礎，透過講解、示範、漸近穩定的體式累加練習，建立身體的順位與力量的根基，適合初學者與希望精進基礎的練習者。</p>
+                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4">
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
+                            data-width="12" class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M12 6v6l4 2"></path>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </g>
+                        </svg> 75 分鐘</span>
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:bar-chart-2"
+                            data-width="12" class="iconify iconify--lucide">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M5 21v-6m7 6V3m7 18V9"></path>
+                        </svg> 強度 ★★</span>
+                </div>
+            </div>
+
+            <!-- Class Item 2 -->
+            <div
+                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer">
+                <div class="flex justify-between items-start mb-6">
+                    <span
+                        class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Yin</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                        viewBox="0 0 24 24" data-icon="lucide:move-up-right" data-width="20"
+                        class="iconify text-stone-300 group-hover:text-stone-600 transition-colors iconify--lucide">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M13 5h6v6m0-6L5 19"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-medium text-stone-900 mb-2">陰瑜珈與經絡疏通</h4>
+                <p class="leading-relaxed text-xs text-stone-500 h-12 mb-6">
+                    停留在較長時間的被動伸展中，放鬆深層結締組織，透過動作與呼吸的結合，通暢脈輪及經絡，修復身心疲勞。</p>
+                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4">
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
+                            data-width="12" class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M12 6v6l4 2"></path>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </g>
+                        </svg> 60 分鐘</span>
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:bar-chart-2"
+                            data-width="12" class="iconify iconify--lucide">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M5 21v-6m7 6V3m7 18V9" class=""></path>
+                        </svg> 強度 ★</span>
+                </div>
+            </div>
+
+            <!-- Class Item 3 -->
+            <div
+                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer">
+                <div class="flex justify-between items-start mb-6">
+                    <span
+                        class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Flow</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                        viewBox="0 0 24 24" data-icon="lucide:move-up-right" data-width="20"
+                        class="iconify text-stone-300 group-hover:text-stone-600 transition-colors iconify--lucide">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M13 5h6v6m0-6L5 19"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-medium text-stone-900 mb-2">呼吸的禪運動</h4>
+                <p class="leading-relaxed text-xs text-stone-500 h-12 mb-6">
+                    將呼吸與動作無縫連結，開始最自然的動態冥想，同時也訓練肌力、提升心肺耐力，及心的專注力，並為自己創作出新的量場。</p>
+                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4">
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
+                            data-width="12" class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M12 6v6l4 2"></path>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </g>
+                        </svg> 60 分鐘</span>
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:bar-chart-2"
+                            data-width="12" class="iconify iconify--lucide">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M5 21v-6m7 6V3m7 18V9" class=""></path>
+                        </svg> 強度 ★★★</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer Section -->
+
+
+
+    <footer class="bg-white border-stone-200 border-t pt-20 pb-12">
+        <div class="max-w-screen-xl mr-auto ml-auto pr-6 pl-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
+
+                <!-- Brand & Address -->
+                <div class="space-y-6">
+                    <div class="text-2xl font-medium tracking-tight text-stone-900">Foryogart</div>
+                    <p class="leading-relaxed text-sm text-stone-500 max-w-sm">
+                        一處結合瑜珈練習與藝術美學的空間。我們期待與您一同探索內在的平靜與無限可能。
+                    </p>
+                    <div class="flex flex-col gap-2 text-sm text-stone-600 pt-4">
+
+                        <div class="flex gap-3 gap-x-3 gap-y-3 items-center">foryogart@gmail.com</div>
+                    </div>
+                </div>
+
+                <!-- Newsletter Form -->
+                <div class="bg-stone-50 p-8 rounded-2xl border border-stone-100">
+                    <h5 class="text-stone-900 font-medium mb-2">訂閱電子報</h5>
+                    <p class="text-xs text-stone-500 mb-6">接收最新的課程資訊與每月正念練習指引。</p>
+
+                    <form class="space-y-4" onsubmit="event.preventDefault();">
+                        <div class="relative">
+                            <input type="email" placeholder="您的電子信箱"
+                                class="w-full bg-white border-none ring-1 ring-stone-200 rounded-lg px-4 py-3 text-sm text-stone-800 placeholder:text-stone-400 focus:ring-2 focus:ring-stone-400 focus:outline-none transition-all shadow-sm">
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <button type="submit"
+                                class="bg-stone-800 text-stone-50 text-sm font-medium px-5 py-2.5 rounded-lg hover:bg-stone-700 transition-colors w-full sm:w-auto">
+                                訂閱
+                            </button>
+                            <p class="text-[10px] text-stone-400">我們尊重您的隱私，不會發送垃圾郵件。</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-between items-center border-t border-stone-100 pt-8 gap-4">
+                <div class="text-[10px] text-stone-400">
+                    © 2024 Foryogart Studio. All rights reserved.
+                </div>
+                <div class="flex gap-6">
+                    <a href="#" class="text-stone-400 hover:text-stone-600 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="18" height="18"
+                            viewBox="0 0 24 24" data-icon="lucide:instagram" data-width="18"
+                            class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-stone-400 hover:text-stone-600 transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="18" height="18"
+                            viewBox="0 0 24 24" data-icon="lucide:facebook" data-width="18"
+                            class="iconify iconify--lucide">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
