@@ -27,8 +27,8 @@
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+
+    <script src="script.js" defer=""></script>
 
     <!-- Fonts: Noto Sans TC -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap"
@@ -42,7 +42,7 @@
         <div class="max-w-screen-xl mx-auto px-6 h-16 flex items-center justify-between">
             <div class="flex items-center gap-2">
                 <!-- Simple textual logo/Brand -->
-                <span class="text-lg tracking-tighter font-medium text-stone-800 cursor-pointer">Foryogart</span>
+                <span class="cursor-pointer text-lg font-medium text-stone-800 tracking-tighter">Foryogart</span>
             </div>
 
             <div class="hidden md:flex items-center gap-8 text-sm text-stone-500">
@@ -80,6 +80,11 @@
             class="text-2xl text-stone-800 font-medium hover:text-stone-500 transition-colors mobile-link">導師</a>
         <a href="#schedule"
             class="text-2xl text-stone-800 font-medium hover:text-stone-500 transition-colors mobile-link">課表</a>
+        <button
+            onclick="document.getElementById('reserve-modal').classList.remove('hidden'); document.getElementById('mobile-menu').classList.remove('opacity-100', 'pointer-events-auto'); document.getElementById('mobile-menu').classList.add('opacity-0', 'pointer-events-none');"
+            class="text-xl font-medium bg-stone-900 text-stone-50 px-8 py-3 rounded-full hover:bg-stone-800 transition-all duration-300 mobile-link">
+            預約體驗
+        </button>
     </div>
 
     <!-- Hero Section -->
@@ -100,7 +105,7 @@
             </h1>
 
             <p class="text-base md:text-lg text-stone-500 max-w-xl mx-auto leading-relaxed font-light mb-12">
-                Foryogart 不僅是身體的練習，更是一場向內探索的旅程。在這裡，我們透過正念與哲學，將生活的喧囂轉化為內心的寧靜畫布。
+                Foryogart 不僅只於身體的瑜伽體式的練習，更是一場向內探索的旅程。在這裡，我們也整合正念與哲學，將生活的喧囂轉化為內心的寧靜畫布。
             </p>
 
             <div class="flex flex-col md:flex-row items-center justify-center gap-4">
@@ -126,20 +131,20 @@
     <section id="philosophy" class="bg-white/50 border-stone-100 border-t pt-24 pb-24">
         <div class="max-w-screen-xl mr-auto ml-auto pr-6 pl-6">
 
-            <!-- ADDED: Manifesto Text Block -->
+            <!-- Manifesto Text Block -->
             <div class="max-w-3xl mx-auto text-center mb-24">
                 <h2 class="text-2xl md:text-3xl font-medium text-stone-800 tracking-tight mb-10 leading-snug">
                     我們相信，每個人都希望<br class="hidden md:block">生活更輕鬆、健康、有力量。
                 </h2>
                 <div class="space-y-8 text-stone-500 leading-8 font-light text-base md:text-lg">
                     <p class="">
-                        我們的課程從最實用的角度出發，帶領你透過瑜珈與正念練習，逐步建立穩定、清晰的內在狀態。當心更穩定，生活就更容易運作，也更能做出真正適合自己的選擇。
+                        Foryogart的課程從實用的角度出發，帶領你透過瑜珈與正念練習，逐步建立穩定、清晰的內在狀態。當心更穩定，生活更能高效運作，也更能做出符合自己生命藍圖的選擇。
                     </p>
                     <p class="">
-                        我們結合傳統瑜珈、東西方哲學、生活經驗與自然法則，用簡單易懂的方式，陪伴你把覺察帶回每天的生活中。
+                        我們結合傳承瑜珈、東西方哲學、生活經驗與自然法則，用簡單易懂的方式，陪伴你把覺察帶回每天的生活中。
                     </p>
                     <p class="">
-                        不論你是為了調整身心、改善壓力、尋找方向，或希望提升自我，我們都會以實際可用的方法，協助你更自在、更有能量地生活。讓練習不只停在瑜珈墊上，而是讓生活變得輕鬆、有趣、自在。
+                        不論你是為了調整身心、改善壓力、尋找方向，或希望提升自我，我們都能協助你從瑜珈墊上的練習延伸，讓身心更自在、更有能量地生活，讓生活變得輕鬆、從容、享受。
                     </p>
                 </div>
                 <div class="w-16 h-px bg-stone-200 mx-auto mt-12"></div>
@@ -211,7 +216,8 @@
                     </div>
                     <h3 class="text-xl font-medium text-stone-900 mb-3 tracking-tight">生活藝術</h3>
                     <p class="leading-7 text-sm text-stone-500">
-                        我們相信每個人都是自己生命的藝術家。透過身心的整合練習，更清楚所創造的生命流動是自己想要的，譚崔瑜伽的幾何壇城所做成的實用文創小物，讓瑜伽舉手可得，輕鬆練習。</p>
+                        Foryogart相信每個人都是自己生命的藝術創作家，所以這裡練的瑜伽要讓每個人所創造的生命流動是正能量源源不絕，幾何壇城Yantra代表大地母親能量的原型，在Foryogart慧心獨具下也創作成舉手可得的實用文創小物，畫壇城的工作坊，也深廣地練習生活與自然智慧
+                    </p>
                 </div>
             </div>
         </div>
@@ -227,7 +233,8 @@
                         喧囂中的一隅淨土
                     </h2>
                     <p class="leading-relaxed font-light text-stone-500 mb-8">Foryogart
-                        崇尚極簡的空間設計，去除多餘的視覺干擾。柔和的光線、自然的材質，以及淡淡的線香氣息，為您營造一個沈澱內心紛亂、清雅脫俗的和諧場域。</p>
+                        崇尚極簡的空間，避免多餘的身心干擾。柔和的光線、自然的材質，以及淡雅的氣息，為您營造一個沈澱內心紛亂、清雅脫俗的和諧場域。
+                    </p>
                     <ul class="space-y-4">
                         <li class="flex items-center gap-3 text-sm text-stone-600">
 
@@ -239,7 +246,7 @@
                 </div>
                 <div class="grid grid-rows-2 h-96 lg:h-auto">
                     <div class="relative overflow-hidden group border-b border-stone-100 lg:border-b-0">
-                        <img src="images/1735547381001.jpg" alt="Foryogart Daan Studio"
+                        <img src="images/1735547381001.jpg" alt="Foryogart Daan Studio" loading="lazy"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div
                             class="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-stone-800 shadow-sm">
@@ -248,10 +255,11 @@
                     </div>
                     <div class="relative overflow-hidden group">
                         <img src="images/facebook_1765808796491_7406338898357499816.jpg" alt="Foryogart Tianmu Studio"
+                            loading="lazy"
                             class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                         <div
                             class="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-medium text-stone-800 shadow-sm">
-                            天母 Tianmu
+                            天母 Tianmu (二樓)
                         </div>
                     </div>
                 </div>
@@ -284,7 +292,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6">
             <!-- Class Item 1 -->
             <div
-                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer">
+                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer flex flex-col h-full">
                 <div class="flex justify-between items-start mb-6">
                     <span
                         class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Hatha</span>
@@ -296,9 +304,44 @@
                     </svg>
                 </div>
                 <h4 class="text-lg font-medium text-stone-900 mb-2">Sivananda 瑜伽</h4>
-                <p class="leading-relaxed text-xs text-stone-500 h-12 mb-6">
+                <p class="leading-relaxed text-xs text-stone-500 mb-6 flex-grow">
                     循序漸進地建立身體力量，練習調息與深度大休息，讓瑜伽從一開始就有系統地與生活連結，將古典傳承真正練進生命裡。</p>
-                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4">
+                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4 mt-auto">
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
+                            data-width="12" class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M12 6v6l4 2"></path>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </g>
+                        </svg> 90分鐘</span>
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:bar-chart-2"
+                            data-width="12" class="iconify iconify--lucide">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M5 21v-6m7 6V3m7 18V9"></path>
+                        </svg> 強度 ★★</span>
+                </div>
+            </div>
+
+            <!-- Class Item 2 -->
+            <div
+                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer flex flex-col h-full">
+                <div class="flex justify-between items-start mb-6">
+                    <span
+                        class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Yin</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                        viewBox="0 0 24 24" data-icon="lucide:move-up-right" data-width="20"
+                        class="iconify text-stone-300 group-hover:text-stone-600 transition-colors iconify--lucide">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M13 5h6v6m0-6L5 19"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-medium text-stone-900 mb-2">陰瑜珈與經絡疏通</h4>
+                <p class="leading-relaxed text-xs text-stone-500 mb-6 flex-grow">
+                    疫情後成為 For YogArt 最受歡迎的課程。為高速、高壓的現代生活，提供高效率的身心釋壓方式，協助調整體態、深化正念。動作簡單、溫和易學，適合各階段學員。</p>
+                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4 mt-auto">
                     <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
                             role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
                             data-width="12" class="iconify iconify--lucide">
@@ -312,41 +355,6 @@
                             role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:bar-chart-2"
                             data-width="12" class="iconify iconify--lucide">
                             <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="M5 21v-6m7 6V3m7 18V9"></path>
-                        </svg> 強度 ★★</span>
-                </div>
-            </div>
-
-            <!-- Class Item 2 -->
-            <div
-                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer">
-                <div class="flex justify-between items-start mb-6">
-                    <span
-                        class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Yin</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
-                        viewBox="0 0 24 24" data-icon="lucide:move-up-right" data-width="20"
-                        class="iconify text-stone-300 group-hover:text-stone-600 transition-colors iconify--lucide">
-                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="2" d="M13 5h6v6m0-6L5 19"></path>
-                    </svg>
-                </div>
-                <h4 class="text-lg font-medium text-stone-900 mb-2">陰瑜珈與經絡疏通</h4>
-                <p class="leading-relaxed text-xs text-stone-500 h-12 mb-6">
-                    疫情後成為 For YogArt 最受歡迎的課程。為高速、高壓的現代生活，提供高效率的身心釋壓方式，協助調整體態、深化正念。動作簡單、溫和易學，適合各階段學員。</p>
-                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4">
-                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
-                            data-width="12" class="iconify iconify--lucide">
-                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2">
-                                <path d="M12 6v6l4 2"></path>
-                                <circle cx="12" cy="12" r="10"></circle>
-                            </g>
-                        </svg> 60 - 75 分鐘</span>
-                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
-                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:bar-chart-2"
-                            data-width="12" class="iconify iconify--lucide">
-                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" d="M5 21v-6m7 6V3m7 18V9" class=""></path>
                         </svg> 強度 ★</span>
                 </div>
@@ -354,7 +362,7 @@
 
             <!-- Class Item 3 -->
             <div
-                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer">
+                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer flex flex-col h-full">
                 <div class="flex justify-between items-start mb-6">
                     <span
                         class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Yantra</span>
@@ -365,10 +373,47 @@
                             stroke-width="2" d="M13 5h6v6m0-6L5 19"></path>
                     </svg>
                 </div>
-                <h4 class="text-lg font-medium text-stone-900 mb-2">呼吸靜心禪運動</h4>
-                <p class="leading-relaxed text-xs text-stone-500 h-12 mb-6">
-                    透過幾何藝術理解量場，畫壇城是譚崔瑜伽的入門；進階至 Sri Yantra，能更深入體證宇宙與自我，當真理實相被經驗，瑜伽的維度也提升至極喜悅與自在。</p>
-                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4">
+                <h4 class="text-lg font-medium text-stone-900 mb-2">畫幾何壇城 Yantra</h4>
+                <p class="leading-relaxed text-xs text-stone-500 mb-6 flex-grow">
+                    透過幾何藝術理解量場，畫壇城是譚崔瑜伽的入門；進階至 Sri Yantra，能更深入體證宇宙與自我，當真理實相被經歷體驗，瑜伽的維度也提升至極緻喜悅與自在。
+                </p>
+                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4 mt-auto">
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
+                            data-width="12" class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M12 6v6l4 2"></path>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </g>
+                        </svg> 180 分鐘</span>
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:bar-chart-2"
+                            data-width="12" class="iconify iconify--lucide">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M5 21v-6m7 6V3m7 18V9" class=""></path>
+                        </svg> 強度 ★★</span>
+                </div>
+            </div>
+
+            <!-- Class Item 4: ZEN YOGA -->
+            <div
+                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer flex flex-col h-full">
+                <div class="flex justify-between items-start mb-6">
+                    <span
+                        class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Zen</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                        viewBox="0 0 24 24" data-icon="lucide:move-up-right" data-width="20"
+                        class="iconify text-stone-300 group-hover:text-stone-600 transition-colors iconify--lucide">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M13 5h6v6m0-6L5 19"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-medium text-stone-900 mb-2">生活.禪.瑜伽</h4>
+                <p class="leading-relaxed text-xs text-stone-500 mb-6 flex-grow">
+                    把現實生活的瑣碎用真理智慧梳理，把身體縮影在一呼一吸的瑜伽體式中體會因緣生滅，並練習把心清澈無分別地觀曉當下，這是一堂由內而外啟動身心覺知的瑜珈練習。
+                </p>
+                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4 mt-auto">
                     <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
                             role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
                             data-width="12" class="iconify iconify--lucide">
@@ -383,9 +428,46 @@
                             data-width="12" class="iconify iconify--lucide">
                             <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                 stroke-width="2" d="M5 21v-6m7 6V3m7 18V9" class=""></path>
-                        </svg> 強度 ★★★</span>
+                        </svg> 強度 ★★</span>
                 </div>
             </div>
+
+            <!-- Class Item 5: MEDITATION -->
+            <div
+                class="p-8 rounded-xl border border-stone-200 bg-white hover:border-stone-300 transition-all duration-300 hover:shadow-sm group cursor-pointer flex flex-col h-full">
+                <div class="flex justify-between items-start mb-6">
+                    <span
+                        class="px-2 py-1 bg-stone-100 text-stone-600 text-[10px] tracking-wide uppercase rounded font-medium">Meditation</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="20" height="20"
+                        viewBox="0 0 24 24" data-icon="lucide:move-up-right" data-width="20"
+                        class="iconify text-stone-300 group-hover:text-stone-600 transition-colors iconify--lucide">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" d="M13 5h6v6m0-6L5 19"></path>
+                    </svg>
+                </div>
+                <h4 class="text-lg font-medium text-stone-900 mb-2">靜心冥想</h4>
+                <p class="leading-relaxed text-xs text-stone-500 mb-6 flex-grow">
+                    跟著佛瑜伽練習靜心，練習佛法的止觀靜慮、亦即聖王瑜伽八肢功法的第六肢-專注及第七肢-冥想，沈澱內心的紛亂，開啟平靜的滋養，在頓悟的瞬間，看見無我、體證存在。
+                </p>
+                <div class="flex items-center gap-4 text-xs text-stone-400 border-t border-stone-100 pt-4 mt-auto">
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:clock"
+                            data-width="12" class="iconify iconify--lucide">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2">
+                                <path d="M12 6v6l4 2"></path>
+                                <circle cx="12" cy="12" r="10"></circle>
+                            </g>
+                        </svg> 60 分鐘</span>
+                    <span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+                            role="img" width="12" height="12" viewBox="0 0 24 24" data-icon="lucide:bar-chart-2"
+                            data-width="12" class="iconify iconify--lucide">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M5 21v-6m7 6V3m7 18V9" class=""></path>
+                        </svg> 強度 ★</span>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -402,7 +484,7 @@
                     <!-- Image Column (Placeholder) -->
                     <div class="lg:col-span-5 bg-stone-200 min-h-[400px] lg:min-h-full relative">
                         <!-- Placeholder for Tara's Image -->
-                        <img src="images/IMG_20240808_151356.jpg" alt="Tara．OmAnandi"
+                        <img src="images/IMG_20240808_151356.jpg" alt="Tara．OmAnandi" loading="lazy"
                             class="w-full h-full object-cover object-[65%_center]">
                     </div>
 
@@ -468,8 +550,9 @@
                 <h2 class="text-3xl font-medium text-stone-900 tracking-tight mb-8">For YogArt 的誕生</h2>
                 <p class="text-lg text-stone-600 leading-relaxed font-light">
                     Tara 於 2016 年 以 Sivananda 瑜伽為基礎，創辦 <span class="font-medium">天母佛瑜伽 For
-                        YogArt</span>，為病重的父親祈福健康。圓滿心願後，隨著 Covid 疫情，空間轉型為個人工作室；並於 2022 年 全心投入 Sri Vidya
-                    譚崔密續傳承，開啟瑜伽修行的新維度，將瑜伽與生活的核心精神，深度融入教學之中。
+                        YogArt</span>，為病重的父親祈福健康。圓滿心願後，隨著 Covid 疫情，空間轉型為個人工作室；並於 2022 年 全心投入Sri
+                    Vidya譚崔密續傳承的進修，也開啟瑜伽修行及教學的新維度，將瑜伽與生活的核心精神，深度融入教學之中。
+
                 </p>
             </div>
 
@@ -515,7 +598,7 @@
                         </div>
                         <span class="text-sm font-mono text-stone-400 mb-1 block">2017</span>
                         <h4 class="text-lg font-medium text-stone-800">加拿大 200 小時瑜伽師資班分組指導師</h4>
-                        <p class="text-stone-500 text-sm mt-1">哈達瑜伽經印度 14 天密集修煉</p>
+                        <h4 class="text-lg font-medium text-stone-800 mt-1">哈達瑜伽經印度 14 天密集修煉</h4>
                     </div>
 
                     <!-- 2018 -->
@@ -564,8 +647,25 @@
                         </div>
                         <span class="text-sm font-mono text-stone-400 mb-1 block">2023</span>
                         <h4 class="text-lg font-medium text-stone-800">用講的瑜珈－摩登伽女頻道</h4>
-                        <p class="text-stone-500 text-sm mt-1">「你知道嗎？修練好好生活瑜伽」</p>
-                        <p class="text-stone-500 text-sm mt-1">譚崔十慧母修練 / 譚崔《Soundarya Lahari》修練</p>
+                        <h4 class="text-lg font-medium text-stone-800 mt-1">瑜伽一你知道嗎?修練好好生活瑜伽</h4>
+                        <h4 class="text-lg font-medium text-stone-800 mt-1">譚崔十慧母修練 / 譚崔《Soundarya Lahari》修練</h4>
+                    </div>
+
+                    <!-- 2024 -->
+                    <div class="relative pl-8 md:pl-12">
+                        <div class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-stone-300 ring-4 ring-white">
+                        </div>
+                        <span class="text-sm font-mono text-stone-400 mb-1 block">2024</span>
+                        <h4 class="text-lg font-medium text-stone-800">用空性讀瑜伽經 | 推廣空性正見</h4>
+                    </div>
+
+                    <!-- 2025 -->
+                    <div class="relative pl-8 md:pl-12">
+                        <div class="absolute -left-[5px] top-2 w-2.5 h-2.5 rounded-full bg-stone-800 ring-4 ring-white">
+                        </div>
+                        <span class="text-sm font-mono text-stone-400 mb-1 block">2025</span>
+                        <h4 class="text-lg font-medium text-stone-800">推出壇城商品及十大壇城線上錄影課</h4>
+                        <h4 class="text-lg font-medium text-stone-800 mt-1">Satsang 共讀大乘妙法蓮華經</h4>
                     </div>
 
                 </div>
@@ -585,7 +685,7 @@
                 <!-- Monday & Tuesday -->
                 <div class="bg-white p-8 rounded-xl border border-stone-100 shadow-sm">
                     <h3 class="text-lg font-medium text-stone-800 mb-6 flex items-center gap-2">
-                        <span class="w-2 h-2 rounded-full bg-stone-300"></span> 週一 & 週二
+                        <span class="w-2 h-2 rounded-full bg-stone-300"></span> 週一 &amp; 週二
                     </h3>
                     <div class="text-stone-400 text-sm italic">無課程</div>
                 </div>
@@ -618,7 +718,7 @@
                         <div
                             class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-stone-50">
                             <div>
-                                <div class="text-stone-900 font-medium">Sivananda 瑜伽</div>
+                                <div class="text-stone-900 font-medium">陰瑜珈與經絡疏通</div>
                                 <div class="text-xs text-stone-500">Tara • 天母</div>
                             </div>
                             <div
@@ -628,7 +728,7 @@
                         <div
                             class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-stone-50 last:border-0 last:pb-0">
                             <div>
-                                <div class="text-stone-900 font-medium">陰瑜珈與經絡疏通</div>
+                                <div class="text-stone-900 font-medium">Sivananda 瑜伽</div>
                                 <div class="text-xs text-stone-500">Tara • 天母</div>
                             </div>
                             <div
@@ -670,7 +770,8 @@
                         </div>
                         <div class="flex flex-col gap-1 p-4 bg-stone-50/50 rounded-lg">
                             <div class="text-sm text-stone-600 font-mono mb-1">10:30 - 12:30</div>
-                            <div class="text-stone-900 font-medium">呼吸靜心禪運動</div>
+                            <div class="text-stone-900 font-medium">生活.禪.瑜伽
+                            </div>
                             <div class="text-xs text-stone-500">Tara • 天母</div>
                         </div>
                         <div class="flex flex-col gap-1 p-4 bg-stone-50/50 rounded-lg">
@@ -701,7 +802,7 @@
             <div class="flex justify-center">
                 <div class="bg-white p-4 rounded-xl shadow-sm border border-stone-100 inline-block">
                     <iframe
-                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FForYogArt&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FForYogArt&amp;tabs=timeline&amp;width=500&amp;height=600&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId"
                         width="500" height="600" style="border:none;overflow:hidden;max-width:100%;" scrolling="no"
                         frameborder="0" allowfullscreen="true"
                         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
@@ -752,9 +853,7 @@
                             0922675266
                         </a>
                     </div>
-                </div>
-
-                <!-- Newsletter Form -->
+                </div><!-- Newsletter Form -->
                 <div class="bg-stone-50 p-8 rounded-2xl border border-stone-100">
                     <h5 class="text-stone-900 font-medium mb-2">訂閱電子報</h5>
                     <p class="text-xs text-stone-500 mb-6">接收最新的課程資訊與每月正念練習指引。</p>
